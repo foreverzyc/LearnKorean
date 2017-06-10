@@ -1,0 +1,271 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#436EEE"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/button1"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="ㅏ"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_marginTop="100dp"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/button1"
+        android:text="ㅑ"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_marginTop="100dp"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/button2"
+        android:text="ㅓ"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_marginTop="100dp"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/button3"
+        android:text="ㅕ"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button5"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button1"
+        android:text="ㅗ"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button6"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button2"
+        android:layout_toRightOf="@id/button5"
+        android:text="ㅛ"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button7"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button3"
+        android:layout_toRightOf="@id/button6"
+        android:text="ㅜ"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button8"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button4"
+        android:layout_toRightOf="@id/button7"
+        android:text="ㅠ"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button9"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button5"
+        android:text="ㅡ"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button10"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button6"
+        android:layout_toRightOf="@id/button9"
+        android:text="ㅣ"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button11"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button7"
+        android:layout_toRightOf="@id/button10"
+        android:text="ㅔ"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button12"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button8"
+        android:layout_toRightOf="@id/button11"
+        android:text="ㅖ"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tx1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button9"
+        android:text="以上是元音"
+        android:textColor="#fff"
+        android:textSize="30dp" />
+    <TextView
+        android:id="@+id/tx2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tx1"
+        android:text="以下是辅音"
+        android:textColor="#fff"
+        android:textSize="30dp" />
+    <Button
+        android:id="@+id/button13"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tx2"
+        android:text="ㄱ"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/button14"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/button13"
+        android:layout_below="@id/tx2"
+        android:text="ㄴ"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/button15"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/button14"
+        android:layout_below="@id/tx2"
+        android:text="ㄷ"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/button16"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/button15"
+        android:layout_below="@id/tx2"
+        android:text="ㄹ"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/button17"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button13"
+        android:text="ㅁ"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/button18"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/button17"
+        android:layout_below="@id/button14"
+        android:text="ㅂ"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/button19"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/button18"
+        android:layout_below="@id/button15"
+        android:text="ㅅ"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/button20"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/button19"
+        android:layout_below="@id/button16"
+        android:text="ㅇ"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/button21"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button17"
+        android:text="ㅈ"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/button22"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button18"
+        android:layout_toRightOf="@id/button21"
+        android:text="ㅊ"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/button23"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button19"
+        android:layout_toRightOf="@id/button22"
+        android:text="ㅋ"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/button24"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button20"
+        android:layout_toRightOf="@id/button23"
+        android:text="ㅌ"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/button25"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button21"
+        android:text="ㅍ"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/button26"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button22"
+        android:layout_toRightOf="@id/button25"
+        android:text="ㅎ"
+        android:textStyle="bold" />
+
+
+
+
+
+
+
+</RelativeLayout>

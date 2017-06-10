@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zyc.nevergiveup">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/satori"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/satori"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".WelcomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ListenActivity"
+            android:label="单词练习" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".KoreanAcitvity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".FightActivity" />
+        <activity android:name=".AboutActivity"></activity>
+    </application>
+
+</manifest>
